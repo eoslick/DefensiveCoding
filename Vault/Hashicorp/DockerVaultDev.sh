@@ -23,7 +23,7 @@ function remove_container() {
 # Function to display help message
 function display_help {
   echo "Usage: $0 [OPTIONS]"
-  echo "  --keylist=KEYLIST     Comma-separated list of keys to store in Vault"
+  echo "  --keylist \"KEYLIST\"  Comma-separated list of keys to store in Vault"
   echo "  --clear-db            Clear the database before running the script"
   echo "  --help                Display this help message and exit"
 }
