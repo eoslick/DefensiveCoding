@@ -13,3 +13,5 @@ applications and do not need to be hard coding those keys in property files or i
 accidently get leaked in someway shape or form.
 
 With this script, the idea is to store API keys in the vault and use the self signed certs to authenticate.  
+
+This script will export various enviornment variables.  To run the command use `. ./DockerVaultDev.sh`
